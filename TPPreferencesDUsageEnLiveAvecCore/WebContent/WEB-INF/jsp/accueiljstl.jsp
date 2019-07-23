@@ -12,9 +12,8 @@
 <section style="color:${couleurChoisie}" class="col-6">
 
 	<h1>Accueil</h1>
-		
 	<form method="post" action="${pageContext.request.contextPath}/ServletAccueil">
-	      <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+	  <label class="mr-sm-2" for="inlineFormCustomSelect">Préférences</label>
 	  <div class="form-row align-items-center">
 	    <div class="col-auto">
 	      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="couleurs">
